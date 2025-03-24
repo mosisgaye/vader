@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl w-full mx-auto py-12">
-        <h1 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-5xl font-bold text-center mb-16 bg-blue-600 to-purple-600 bg-clip-text text-transparent">
           Neem contact met ons op
         </h1>
 
@@ -131,14 +131,14 @@ export default function Contact() {
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">Uw bericht*</label>
                 <textarea 
-                  rows="4" 
+                  rows={4} 
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
                 ></textarea>
               </div>
 
               <button 
                 type="submit" 
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-md hover:shadow-lg"
+                className="w-full bg-blue-600 text-white py-4 px-6 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 Verzenden
               </button>
