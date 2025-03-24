@@ -3,16 +3,13 @@ import Image from 'next/image';
 
 export default function Contact() {
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-gray-50 min-h-screen flex flex-col items-center justify-center">   
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-5xl font-bold text-center text-gray-800 mb-8">Contactez-nous</h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Section gauche - informations */}
           <div className="space-y-6">
-            <p className="text-lg text-gray-600">
-              Vous recherchez une <a href="#" className="text-blue-600 hover:underline">agence digitale</a> qui
-              construit avec vous votre projet et qui s'adapte à tous les supports de communication ?
-            </p>
+         
             <p className="text-lg text-gray-600">Nous sommes à votre écoute !</p>
             <div className="space-y-4">
               <div>
