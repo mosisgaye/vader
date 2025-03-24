@@ -14,7 +14,7 @@ export default function Header() {
   // Handle scroll event to add shadow only when scrolled
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      setIsScrolled(window.scrollY > 10); 
     };
     
     window.addEventListener('scroll', handleScroll);
@@ -46,7 +46,7 @@ export default function Header() {
   };
 
   // WhatsApp link
-  const whatsappLink = "https://wa.me/+yourphonenumber"; // Remplacez 'yourphonenumber' par votre numéro
+  const whatsappLink = "https://wa.me/+32456740311";
 
   return (
     <header className={`top-0 z-50 bg-white ${isScrolled ? 'shadow-md' : ''} text-gray-800 h-16 md:h-20 flex items-center justify-between fixed w-full px-6 lg:px-12 xl:px-24 transition-all duration-300`}>
