@@ -13,7 +13,7 @@ const Aboutme = () => {
           <h1 className="text-4xl font-bold">Founder of The Vaderhart</h1>
           <p className="text-xl text-black leading-relaxed">
            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, eos quod saepe eligendi voluptatibus officiis quaerat aspernatur non ipsam hic accusantium voluptatem fugiat laboriosam, modi eum harum nobis in praesentium repellendus eveniet reiciendis animi iste. Sequi est incidunt voluptate quis veritatis, eaque officia culpa commodi similique aliquid debitis magnam totam aperiam rem nobis dolores eum quam cum minima dicta doloremque quibusdam dignissimos accusamus. Incidunt laborum cum voluptatem exercitationem recusandae, aliquid perferendis, rem delectus facilis eum, eius deserunt alias ab! Necessitatibus sequi natus numquam perferendis voluptatem earum aperiam, quibusdam nam! Vitae, eligendi nulla sit nisi dolorum sint eveniet voluptate velit excepturi totam! Aut libero necessitatibus natus animi hic iste amet enim! Saepe id hic ullam delectus est aliquid molestiae perspiciatis vitae ipsum, nulla aliquam natus ratione facilis ut nisi quas iusto mollitia cum fuga recusandae. Blanditiis hic aliquid alias fuga harum perferendis sit, quasi esse, totam et suscipit! Cum, corporis vitae.
-
+            test
           </p>
           <button className="bg-yellow-400 text-black py-3 px-6 rounded-lg shadow-md hover:bg-gray-200 transition">
             Email Me
