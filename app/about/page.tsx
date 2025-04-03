@@ -61,7 +61,7 @@ const About: React.FC = () => {
                   <p className="leading-relaxed">
                     Als vader van twee jonge kinderen, als zoon, als echtgenoot
                     en als leerkracht heb ik reeds de verschillende rollen die
-                    een man aanneemt, mogen ervaren...
+                    een man aanneemt, mogen ervaren.....
                   </p>
                   <p className="leading-relaxed">
                     De belangrijkste referentie die ik kan voorleggen, is in de
